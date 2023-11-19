@@ -1,5 +1,6 @@
 import NavigationBar from "./Components/NavigationBar";
 import Profile from "./Components/Profile";
+import Skills from "./Components/Skills";
 import "./App.css";
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <header className="App">
       <NavigationBar />
       <Profile />
+      <Skills />
     </header>
   );
 }
