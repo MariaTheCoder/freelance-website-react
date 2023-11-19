@@ -11,12 +11,13 @@
   line-height: 1.5;
   font-weight: 400;
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* Custom variables releated to color scheme */
+  --text-clr: hsl(79, 53%, 94%);
+  --background-clr: hsl(78, 52%, 5%);
+  --primary-clr: hsl(79, 52%, 36%);
+  --secondary-clr: hsl(80, 50%, 7%);
+  --accent-clr: hsl(79, 52%, 47%);
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* Use custom variablse */
+  background-color: var(--background-clr);
 }
