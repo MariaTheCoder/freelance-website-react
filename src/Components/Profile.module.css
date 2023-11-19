@@ -1,0 +1,11 @@
+.Profile {
+  background-color: var(--secondary-clr);
+}
+
+.Profile > h1 {
+  color: var(--accent-clr);
+}
+
+.Profile > p {
+  color: var(--text-clr);
+}
