@@ -1,3 +1,4 @@
 .Projects {
   color: blue;
+  padding: var(--default-padding);
 }

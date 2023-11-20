@@ -1,3 +1,4 @@
 .Articles {
   color: green;
+  padding: var(--default-padding);
 }

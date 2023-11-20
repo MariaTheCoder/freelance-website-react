@@ -18,6 +18,9 @@
   --secondary-clr: hsl(80, 50%, 7%);
   --accent-clr: hsl(79, 52%, 47%);
 
+  /* Other custom variables not related to color scheme */
+  --default-padding: 0.5em;
+
   /* Use custom variablse */
   background-color: var(--background-clr);
 }
