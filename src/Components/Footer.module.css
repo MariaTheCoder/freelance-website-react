@@ -13,6 +13,6 @@
   gap: calc(0.5 * var(--default-padding));
 }
 
-.contact-info > img {
+.contact-info > a > img {
   width: 2em;
 }

@@ -10,23 +10,41 @@ function Footer() {
     <footer className={style.Footer}>
       <div className="contact-info">Kerim Güney</div>
       <div className={style["contact-info"]}>
-        <img src={PhoneIcon} alt="Phone icon" />
+        <a href="tel:+49 179 1234567">
+          <img src={PhoneIcon} alt="Phone icon" />
+        </a>
         Give me a call
       </div>
       <div className={style["contact-info"]}>
-        <img src={EmailIcon} alt="Email icon" />
+        <a href="mailto:example@hotmail.com">
+          <img src={EmailIcon} alt="Email icon" />
+        </a>
         Send me an e-mail
       </div>
       <div className={style["contact-info"]}>
-        <img src={XingIcon} alt="Xing icon" />
+        <a
+          href="https://www.xing.com/profile/Kerim_Gueney3"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={XingIcon} alt="Xing icon" />
+        </a>
         {"Let's connect on Xing"}
       </div>{" "}
       <div className={style["contact-info"]}>
-        <img src={LinkedInIcon} alt="LinkedIn icon" />
+        <a
+          href="https://www.linkedin.com/in/kerim-gueney/?originalSubdomain=de"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src={LinkedInIcon} alt="LinkedIn icon" />
+        </a>
         {"Let's connect on LinkedIn"}
       </div>
       <div className={style["contact-info"]}>
-        <img src={YouTubeIcon} alt="YouTube icon" />
+        <a href="https://www.w3schools.com" target="_blank" rel="noreferrer">
+          <img src={YouTubeIcon} alt="YouTube icon" />
+        </a>
         Subscribe to my YouTube channel
       </div>
     </footer>
