@@ -1,5 +1,6 @@
 .Articles {
-  color: green;
+  background-color: var(--primary-clr);
+  color: var(--text-clr);
   padding: var(--default-padding);
 }
 
