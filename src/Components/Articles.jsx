@@ -6,12 +6,22 @@ function Articles({ articles }) {
       <h2>Read my latest articles</h2>
       <div className={style["grid-container"]}>
         {articles.map((article, index) => [
-          <p key={index * 10 + 0} className={style["date"]}>
-            {article.date}
-          </p>,
-          <p key={index * 10 + 1} className={style["header"]}>
-            {article.title}
-          </p>,
+          <a
+            key={index * 10 + 0}
+            href={article.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p className={style["date"]}>{article.date}</p>
+          </a>,
+          <a
+            key={index * 10 + 1}
+            href={article.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <p className={style["header"]}>{article.title}</p>
+          </a>,
         ])}
       </div>
     </div>

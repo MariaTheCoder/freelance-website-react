@@ -14,3 +14,8 @@
   padding: 0 calc(0.5 * var(--default-padding));
   border: calc(var(--default-padding) / 100) dotted var(--text-clr);
 }
+
+.grid-container a {
+  color: var(--text-clr);
+  text-decoration: none;
+}
