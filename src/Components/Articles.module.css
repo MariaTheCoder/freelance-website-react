@@ -2,3 +2,14 @@
   color: green;
   padding: var(--default-padding);
 }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+.date,
+.header {
+  padding: 0 calc(0.5 * var(--default-padding));
+  border: 0.005em dotted var(--text-clr);
+}
