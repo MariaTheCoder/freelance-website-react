@@ -9,23 +9,23 @@ function Footer() {
   return (
     <footer className={style.Footer}>
       <div className="contact-info">Kerim Güney</div>
-      <div className="contact-info">
+      <div className={style["contact-info"]}>
         <img className="icons" src={PhoneIcon} alt="Phone icon" />
         Give me a call
       </div>
-      <div className="contact-info">
+      <div className={style["contact-info"]}>
         <img className="icons" src={EmailIcon} alt="Email icon" />
         Send me an e-mail
       </div>
-      <div className="contact-info">
+      <div className={style["contact-info"]}>
         <img className="icons" src={XingIcon} alt="Xing icon" />
         {"Let's connect on Xing"}
       </div>{" "}
-      <div className="contact-info">
+      <div className={style["contact-info"]}>
         <img className="icons" src={LinkedInIcon} alt="LinkedIn icon" />
         {"Let's connect on LinkedIn"}
       </div>
-      <div className="contact-info">
+      <div className={style["contact-info"]}>
         <img className="icons" src={YouTubeIcon} alt="YouTube icon" />
         Subscribe to my YouTube channel
       </div>

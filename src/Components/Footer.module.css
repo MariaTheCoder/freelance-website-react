@@ -6,3 +6,8 @@
   display: grid;
   gap: calc(0.5 * var(--default-padding));
 }
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
