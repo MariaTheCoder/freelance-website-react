@@ -1,4 +1,5 @@
 .Skills {
-  background-color: red;
+  background-color: transparent;
+  color: var(--accent-clr);
   padding: var(--default-padding);
 }
