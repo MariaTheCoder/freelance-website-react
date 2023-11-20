@@ -1,4 +1,10 @@
 .Projects {
-  color: blue;
+  background-color: var(--text-clr);
+  color: var(--secondary-clr);
   padding: var(--default-padding);
+}
+
+.Projects > a > img {
+  width: 100%;
+  height: auto;
 }
