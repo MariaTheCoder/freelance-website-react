@@ -1,6 +1,7 @@
 import NavigationBar from "./Components/NavigationBar";
 import Profile from "./Components/Profile";
 import Skills from "./Components/Skills";
+import Projects from "./Components/Projects";
 import "./App.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <NavigationBar />
       <Profile />
       <Skills />
+      <Projects />
     </header>
   );
 }
