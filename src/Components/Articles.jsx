@@ -1,18 +1,18 @@
 import style from "./Articles.module.css";
 
-function Articles() {
+function Articles({ articles }) {
   return (
     <div className={style.Articles}>
       <h2>Read my latest articles</h2>
       <div className={style["grid-container"]}>
-        <p className={style["date"]}>2023-12-12</p>
-        <p className={style["header"]}>Some title</p>
-        <p className={style["date"]}>2023-11-05</p>
-        <p className={style["header"]}>Some title</p>
-        <p className={style["date"]}>2023-10-23</p>
-        <p className={style["header"]}>Some title</p>
-        <p className={style["date"]}>2023-08-16</p>
-        <p className={style["header"]}>Some title</p>
+        {articles.map((article, index) => [
+          <p key={index * 10 + 0} className={style["date"]}>
+            {article.date}
+          </p>,
+          <p key={index * 10 + 1} className={style["header"]}>
+            {article.title}
+          </p>,
+        ])}
       </div>
     </div>
   );

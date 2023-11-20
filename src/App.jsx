@@ -1,3 +1,4 @@
+import { useState } from "react";
 import NavigationBar from "./Components/NavigationBar";
 import Profile from "./Components/Profile";
 import Skills from "./Components/Skills";
@@ -7,13 +8,19 @@ import Footer from "./Components/Footer";
 import "./App.css";
 
 function App() {
+  const [articles, setArticles] = useState([
+    { date: "2023-12-10", title: "Some title" },
+    { date: "2023-10-02", title: "Some title" },
+    { date: "2023-08-20", title: "Some title" },
+    { date: "2023-07-31", title: "Some title" },
+  ]);
   return (
     <header className="App">
       <NavigationBar />
       <Profile />
       <Skills />
       <Projects />
-      <Articles />
+      <Articles articles={articles} />
       <Footer />
     </header>
   );
