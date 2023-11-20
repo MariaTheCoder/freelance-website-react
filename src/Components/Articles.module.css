@@ -11,5 +11,5 @@
 .date,
 .header {
   padding: 0 calc(0.5 * var(--default-padding));
-  border: 0.005em dotted var(--text-clr);
+  border: calc(var(--default-padding) / 100) dotted var(--text-clr);
 }
