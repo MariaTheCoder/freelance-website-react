@@ -1,6 +1,7 @@
 import style from "./Footer.module.css";
 import PhoneIcon from "../assets/Icons/icons8-phone-48.png";
 import EmailIcon from "../assets/Icons/icons8-email-48.png";
+import GithubIcon from "../assets/Icons/icons8-github-48.png";
 import XingIcon from "../assets/Icons/icons8-xing-48.png";
 import LinkedInIcon from "../assets/Icons/icons8-linkedin-48.png";
 import YouTubeIcon from "../assets/Icons/icons8-youtube-48.png";
@@ -8,7 +9,6 @@ import YouTubeIcon from "../assets/Icons/icons8-youtube-48.png";
 function Footer() {
   return (
     <footer className={style.Footer}>
-      <div className="contact-info">Kerim Güney</div>
       <div className={style["contact-info"]}>
         <a href="tel:+49 179 1234567">
           <img src={PhoneIcon} alt="Phone icon" />
@@ -22,6 +22,12 @@ function Footer() {
         Send me an e-mail
       </div>
       <div className={style["contact-info"]}>
+        <a href="https://github.com/KerimG" target="_blank" rel="noreferrer">
+          <img src={GithubIcon} alt="Github icon" />
+        </a>
+        Follow me on Github
+      </div>
+      <div className={style["contact-info"]}>
         <a
           href="https://www.xing.com/profile/Kerim_Gueney3"
           target="_blank"
@@ -30,7 +36,7 @@ function Footer() {
           <img src={XingIcon} alt="Xing icon" />
         </a>
         {"Let's connect on Xing"}
-      </div>{" "}
+      </div>
       <div className={style["contact-info"]}>
         <a
           href="https://www.linkedin.com/in/kerim-gueney/?originalSubdomain=de"
