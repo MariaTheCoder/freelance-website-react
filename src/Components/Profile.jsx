@@ -4,7 +4,7 @@ function Profile() {
   return (
     <div className={style.Profile}>
       <h1>
-        Hi, my name is <em>Kerim Güney</em>
+        Hi, my name is <em className={style.emp}>Kerim Güney</em>
       </h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor
