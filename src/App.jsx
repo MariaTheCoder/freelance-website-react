@@ -3,6 +3,7 @@ import Profile from "./Components/Profile";
 import Skills from "./Components/Skills";
 import Projects from "./Components/Projects";
 import Articles from "./Components/Articles";
+import Footer from "./Components/Footer";
 import "./App.css";
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Skills />
       <Projects />
       <Articles />
+      <Footer />
     </header>
   );
 }
