@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./Pages/Home.jsx";
 import WorkTogether from "./Pages/WorkTogether.jsx";
+import NewsAndArticles from "./Pages/NewsAndArticles.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/news-and-articles",
-        element: <h2>News and Articles</h2>,
+        element: <NewsAndArticles />,
       },
     ],
   },

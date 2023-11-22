@@ -1,0 +1,5 @@
+.News-and-articles {
+  padding: calc(3 * var(--default-padding)) var(--default-padding);
+  background-color: var(--secondary-clr);
+  color: var(--accent-clr);
+}
