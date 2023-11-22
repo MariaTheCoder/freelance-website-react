@@ -1,7 +1,7 @@
 .Articles {
   background-color: var(--primary-clr);
   color: var(--text-clr);
-  padding: var(--default-padding);
+  padding: calc(3 * var(--default-padding)) var(--default-padding);
 }
 
 .flex-container {
@@ -13,6 +13,12 @@
 
 .flex-container > h2 {
   display: inline-block;
+}
+
+.flex-container > a {
+  padding: var(--default-padding);
+  border: 0.075em solid var(--text-clr);
+  border-radius: 0.75em;
 }
 
 .grid-container {

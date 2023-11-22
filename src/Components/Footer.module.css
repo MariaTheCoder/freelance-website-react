@@ -1,16 +1,16 @@
 .Footer {
   background-color: var(--secondary-clr);
   color: var(--text-clr);
-  padding: var(--default-padding);
+  padding: calc(3 * var(--default-padding)) var(--default-padding);
 
   display: grid;
-  gap: calc(0.5 * var(--default-padding));
+  gap: var(--default-padding);
 }
 
 .contact-info {
   display: flex;
   align-items: center;
-  gap: calc(0.5 * var(--default-padding));
+  gap: var(--default-padding);
 }
 
 .contact-info > a {
