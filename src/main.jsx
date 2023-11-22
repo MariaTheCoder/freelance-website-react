@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./Pages/Home.jsx";
+import WorkTogether from "./Pages/WorkTogether.jsx";
 import "./index.css";
 
 const router = createBrowserRouter([
@@ -16,7 +17,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/work-together",
-        element: <h2>{"Let's work together"}</h2>,
+        element: <WorkTogether />,
       },
       {
         path: "/news-and-articles",
