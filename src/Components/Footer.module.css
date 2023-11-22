@@ -1,5 +1,5 @@
 .Footer {
-  background-color: var(--secondary-clr);
+  background-color: var(--background-clr);
   color: var(--text-clr);
   padding: calc(3 * var(--default-padding)) var(--default-padding);
 

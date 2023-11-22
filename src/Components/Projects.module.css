@@ -11,7 +11,7 @@
 }
 
 .project {
-  background-color: var(--background-clr);
+  background-color: var(--secondary-clr);
   padding: calc(2 * var(--default-padding));
   border-radius: 0.25em 0.25em 0 0.25em;
   text-decoration: none;
