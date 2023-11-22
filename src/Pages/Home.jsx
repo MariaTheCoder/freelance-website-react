@@ -3,9 +3,9 @@ import Profile from "../Components/Profile";
 import Skills from "../Components/Skills";
 import Projects from "../Components/Projects";
 import Articles from "../Components/Articles";
-import "./App.css";
+import style from "./Home.module.css";
 
-function App() {
+function Home() {
   const [articles, setArticles] = useState([
     {
       date: "2023-12-10",
@@ -30,7 +30,7 @@ function App() {
     },
   ]);
   return (
-    <header className="App">
+    <header className={style["Home"]}>
       <Profile />
       <Skills />
       <Projects />
@@ -39,4 +39,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;
