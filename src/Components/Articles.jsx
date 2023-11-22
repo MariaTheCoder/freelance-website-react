@@ -3,26 +3,16 @@ import style from "./Articles.module.css";
 function Articles({ articles }) {
   return (
     <div className={style.Articles}>
-      <h2>Read my latest articles</h2>
+      <div className={style["flex-container"]}>
+        <h2>Latest articles</h2>
+        <a>View all</a>
+      </div>
       <div className={style["grid-container"]}>
-        {articles.map((article, index) => [
-          <a
-            key={index * 10 + 0}
-            href={article.link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p className={style["date"]}>{article.date}</p>
-          </a>,
-          <a
-            key={index * 10 + 1}
-            href={article.link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            <p className={style["header"]}>{article.title}</p>
-          </a>,
-        ])}
+        {articles.map((article, index) => (
+          <a key={index} href={article.link} target="_blank" rel="noreferrer">
+            {article.title}
+          </a>
+        ))}
       </div>
     </div>
   );
