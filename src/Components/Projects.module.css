@@ -23,13 +23,12 @@
   position: absolute;
   width: 0;
   height: 0;
-  border-top: var(--default-padding) solid black;
-  border-right: var(--default-padding) solid black;
+  border-top: var(--default-padding) solid var(--secondary-clr);
+  border-right: var(--default-padding) solid var(--secondary-clr);
   border-bottom: var(--default-padding) solid transparent;
   border-left: var(--default-padding) solid transparent;
   right: 0;
   bottom: -15px;
-  color: var(--background-clr);
 }
 
 .project > * {
