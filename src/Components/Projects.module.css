@@ -1,5 +1,36 @@
 .Projects {
   background-color: var(--text-clr);
-  color: var(--secondary-clr);
   padding: calc(3 * var(--default-padding)) var(--default-padding);
+}
+
+.projects-container {
+  padding: calc(2 * var(--default-padding)) 0;
+  display: flex;
+  flex-direction: column;
+  gap: calc(2 * var(--default-padding));
+}
+
+.project {
+  background-color: var(--background-clr);
+  padding: calc(2 * var(--default-padding));
+  border-radius: 0.25em;
+  text-decoration: none;
+}
+
+.project > * {
+  color: var(--text-clr);
+  line-height: 1.75;
+}
+
+.project > p {
+  font-weight: 600;
+  color: var(--accent-clr);
+}
+
+.project > em {
+  display: block;
+}
+
+.project button {
+  color: var(--background-clr);
 }
