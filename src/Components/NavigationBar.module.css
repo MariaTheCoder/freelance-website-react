@@ -12,8 +12,14 @@
   width: auto;
 }
 
+.link-container {
+  width: 5em;
+}
+
 .navigation-link {
   color: var(--primary-clr);
+  font-weight: 550;
+  text-decoration: none;
 }
 
 .navigation-link:has(> .logo) {

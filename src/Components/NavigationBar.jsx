@@ -8,12 +8,16 @@ function NavigationBar() {
       <Link className={style["navigation-link"]} to="/">
         <img className={style["logo"]} src={logo} alt="Logo" />
       </Link>
-      <Link className={style["navigation-link"]} to="/work-together">
-        {"Let's work together"}
-      </Link>
-      <Link className={style["navigation-link"]} to="/news-and-articles">
-        News and Articles
-      </Link>
+      <div className={style["link-container"]}>
+        <Link className={style["navigation-link"]} to="/work-together">
+          {"Let's work together"}
+        </Link>
+      </div>
+      <div className={style["link-container"]}>
+        <Link className={style["navigation-link"]} to="/news-and-articles">
+          News and Articles
+        </Link>
+      </div>
     </div>
   );
 }
