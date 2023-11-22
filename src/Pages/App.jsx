@@ -1,10 +1,10 @@
 import { useState } from "react";
-import NavigationBar from "./Components/NavigationBar";
-import Profile from "./Components/Profile";
-import Skills from "./Components/Skills";
-import Projects from "./Components/Projects";
-import Articles from "./Components/Articles";
-import Footer from "./Components/Footer";
+import NavigationBar from "../Components/NavigationBar";
+import Profile from "../Components/Profile";
+import Skills from "../Components/Skills";
+import Projects from "../Components/Projects";
+import Articles from "../Components/Articles";
+import Footer from "../Components/Footer";
 import "./App.css";
 
 function App() {

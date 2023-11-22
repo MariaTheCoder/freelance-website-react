@@ -1,18 +1,19 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/Logo/icons8-k-100.png";
 import style from "./NavigationBar.module.css";
 
 function NavigationBar() {
   return (
     <div className={style.NavigationBar}>
-      <a className={style["navigation-link"]} href=".">
+      <Link className={style["navigation-link"]} to="/">
         <img src={logo} alt="Logo" />
-      </a>
-      <a className={style["navigation-link"]} href="http://">
+      </Link>
+      <Link className={style["navigation-link"]} to="/work-together">
         {"Let's work together"}
-      </a>
-      <a className={style["navigation-link"]} href="http://">
+      </Link>
+      <Link className={style["navigation-link"]} to="/news-and-articles">
         News and Articles
-      </a>
+      </Link>
     </div>
   );
 }

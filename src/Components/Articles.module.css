@@ -15,7 +15,10 @@
   display: inline-block;
 }
 
-.flex-container > a {
+.flex-container > .link {
+  color: var(--text-clr);
+  text-decoration: none;
+
   padding: var(--default-padding);
   border: 0.075em solid var(--text-clr);
   border-radius: 0.75em;
