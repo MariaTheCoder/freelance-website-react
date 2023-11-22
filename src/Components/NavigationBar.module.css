@@ -7,6 +7,16 @@
   padding: var(--default-padding);
 }
 
+.logo {
+  height: 2em;
+  width: auto;
+}
+
 .navigation-link {
   color: var(--primary-clr);
+}
+
+.navigation-link:has(> .logo) {
+  display: flex;
+  align-items: center;
 }

@@ -6,7 +6,7 @@ function NavigationBar() {
   return (
     <div className={style.NavigationBar}>
       <Link className={style["navigation-link"]} to="/">
-        <img src={logo} alt="Logo" />
+        <img className={style["logo"]} src={logo} alt="Logo" />
       </Link>
       <Link className={style["navigation-link"]} to="/work-together">
         {"Let's work together"}
