@@ -1,6 +1,6 @@
 .Profile {
   background-color: var(--secondary-clr);
-  padding: var(--default-padding);
+  padding: calc(3 * var(--default-padding)) var(--default-padding);
 }
 
 .Profile > h1 {

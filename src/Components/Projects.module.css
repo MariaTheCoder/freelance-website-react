@@ -1,7 +1,7 @@
 .Projects {
   background-color: var(--text-clr);
   color: var(--secondary-clr);
-  padding: var(--default-padding);
+  padding: calc(3 * var(--default-padding)) var(--default-padding);
 }
 
 .Projects img {

@@ -1,5 +1,5 @@
 .Skills {
   background-color: transparent;
   color: var(--accent-clr);
-  padding: var(--default-padding);
+  padding: calc(3 * var(--default-padding)) var(--default-padding);
 }
