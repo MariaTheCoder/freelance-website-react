@@ -3,14 +3,3 @@
   color: var(--secondary-clr);
   padding: calc(3 * var(--default-padding)) var(--default-padding);
 }
-
-.Projects img {
-  width: 100%;
-  height: auto;
-
-  border-radius: 0.2em;
-}
-
-.Projects img:hover {
-  filter: grayscale(100%) blur(2px);
-}
