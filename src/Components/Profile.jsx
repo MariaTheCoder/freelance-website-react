@@ -3,20 +3,16 @@ import style from "./Profile.module.css";
 function Profile() {
   return (
     <div className={style.Profile}>
-      <h1>
-        Hi, my name is <em className={style.emp}>Kerim Güney</em>
+      <h1 className={style.title}>
+        IBM i expertise <br />
       </h1>
+      <h2>
+        <em className={style.emp}>- no nonsense!</em>
+      </h2>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi porttitor
-        massa sed finibus suscipit.
-      </p>
-      <p>
-        Mauris laoreet hendrerit ipsum ac maximus. Etiam venenatis nunc sed
-        neque dapibus, at mattis mauris consequat.
-      </p>
-      <p>
-        Sed posuere augue sit amet ex molestie faucibus. Nullam commodo molestie
-        neque, at laoreet libero facilisis ut.
+        My name is Kerim Güney, IBM Champion and modernization expert. I can
+        asssist you in modernizing your RPG-based applications, implement modern
+        technologies, and augment your existing software.
       </p>
     </div>
   );

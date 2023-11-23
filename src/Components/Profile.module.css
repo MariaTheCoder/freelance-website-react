@@ -5,19 +5,34 @@
 
 .Profile > h1 {
   color: var(--accent-clr);
+  width: 6.1em;
 }
 
-.emp {
-  background: -webkit-linear-gradient(
-    45deg,
-    var(--text-clr),
-    var(--accent-clr)
-  );
+.title {
+  background: -webkit-linear-gradient(45deg, rgb(237, 164, 68), red);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  letter-spacing: -3px;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 0.8em;
+}
+
+.Profile > h2 {
+  color: var(--text-clr);
+  margin-left: 4.5em;
+}
+
+.emp {
+  font-size: 0.6em;
+  font-family: "Rock Salt";
+  text-align: right;
 }
 
 .Profile > p {
   color: var(--text-clr);
+  margin-top: 2em;
+  line-height: 1.2em;
 }
