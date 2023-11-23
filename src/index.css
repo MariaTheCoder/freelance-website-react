@@ -24,11 +24,11 @@
   line-height: 1.5;
 
   /* Custom variables releated to color scheme */
-  --text-clr: hsl(79, 53%, 94%);
-  --background-clr: hsl(78, 52%, 5%);
-  --primary-clr: hsl(79, 52%, 36%);
-  --secondary-clr: hsl(80, 50%, 7%);
-  --accent-clr: hsl(79, 52%, 47%);
+  --text-clr: hsl(45, 80%, 98%);
+  --background-clr: hsl(40, 75%, 3%);
+  --primary-clr: hsl(223, 78%, 60%);
+  --secondary-clr: hsl(253, 77%, 12%);
+  --accent-clr: hsl(193, 78%, 52%);
 
   /* Other custom variables not related to color scheme */
   --default-padding: 0.5em;
