@@ -5,10 +5,14 @@ import Footer from "../Components/Footer";
 
 export default function RootLayout() {
   return (
-    <div className={style["rootLayout"]}>
-      <NavigationBar />
-      <Outlet />
+    <>
+      <header>
+        <NavigationBar />
+      </header>
+      <main className={style["rootLayout"]}>
+        <Outlet />
+      </main>
       <Footer />
-    </div>
+    </>
   );
 }
