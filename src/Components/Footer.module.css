@@ -1,23 +1,38 @@
 .Footer {
   background-color: var(--background-clr);
   color: var(--text-clr);
-  padding: calc(3 * var(--default-padding)) var(--default-padding);
-
-  display: grid;
-  gap: var(--default-padding);
+  padding: calc(6 * var(--default-padding)) 0;
 }
 
-.contact-info {
+.Footer section {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: var(--default-padding);
+  gap: 1.25rem;
 }
 
-.contact-info > a {
+.Footer nav {
   display: flex;
-  align-items: center;
+  gap: 0.25rem;
+  margin: 0 1rem;
 }
 
-.contact-info > a > img {
-  width: 2em;
+.Footer a,
+.Footer span {
+  align-items: center;
+  display: flex;
+  font-size: 0.9rem;
+  line-height: 1.2;
+  padding: 0 0.5rem;
+}
+
+.Footer a {
+  color: var(--text-clr);
+  text-decoration: none;
+}
+
+.Footer img {
+  display: inline-block;
+  height: 20px;
+  width: auto;
 }

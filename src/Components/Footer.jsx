@@ -9,50 +9,44 @@ import YouTubeIcon from "../assets/Icons/icons8-youtube-48.png";
 function Footer() {
   return (
     <footer className={style.Footer}>
-      <div className={style["contact-info"]}>
-        <a href="tel:+49 179 1234567">
-          <img src={PhoneIcon} alt="Phone icon" />
-        </a>
-        Give me a call
-      </div>
-      <div className={style["contact-info"]}>
-        <a href="mailto:example@hotmail.com">
-          <img src={EmailIcon} alt="Email icon" />
-        </a>
-        Send me an e-mail
-      </div>
-      <div className={style["contact-info"]}>
-        <a href="https://github.com/KerimG" target="_blank" rel="noreferrer">
-          <img src={GithubIcon} alt="Github icon" />
-        </a>
-        Follow me on Github
-      </div>
-      <div className={style["contact-info"]}>
-        <a
-          href="https://www.xing.com/profile/Kerim_Gueney3"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={XingIcon} alt="Xing icon" />
-        </a>
-        {"Let's connect on Xing"}
-      </div>
-      <div className={style["contact-info"]}>
-        <a
-          href="https://www.linkedin.com/in/kerim-gueney/?originalSubdomain=de"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src={LinkedInIcon} alt="LinkedIn icon" />
-        </a>
-        {"Let's connect on LinkedIn"}
-      </div>
-      <div className={style["contact-info"]}>
-        <a href="https://www.w3schools.com" target="_blank" rel="noreferrer">
-          <img src={YouTubeIcon} alt="YouTube icon" />
-        </a>
-        Subscribe to my YouTube channel
-      </div>
+      <section>
+        <nav>
+          <a href="https://github.com/KerimG" target="_blank" rel="noreferrer">
+            <span>GibHub</span>
+            <img src={GithubIcon} alt="Github icon" />
+          </a>
+          <a
+            href="https://www.xing.com/profile/Kerim_Gueney3"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>Xing</span>
+            <img src={XingIcon} alt="Xing icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/kerim-gueney/?originalSubdomain=de"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span>LinkedIn</span>
+            <img src={LinkedInIcon} alt="LinkedIn icon" />
+          </a>
+        </nav>
+        <nav>
+          <a href="https://www.w3schools.com" target="_blank" rel="noreferrer">
+            <span>YouTube</span>
+            <img src={YouTubeIcon} alt="YouTube icon" />
+          </a>
+          <a href="tel:+49 152 23619025">
+            <span>Phone</span>
+            <img src={PhoneIcon} alt="Phone icon" />
+          </a>
+          <a href="mailto:shop@gueney.org">
+            <span>Email</span>
+            <img src={EmailIcon} alt="Email icon" />
+          </a>
+        </nav>
+      </section>
     </footer>
   );
 }
