@@ -12,8 +12,15 @@ function Articles({ articles }) {
       </div>
       <div className={style["grid-container"]}>
         {articles.map((article, index) => (
-          <a key={index} href={article.link} target="_blank" rel="noreferrer">
-            {article.title}
+          <a
+            key={index}
+            className={style.article}
+            href={article.link}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <div className={style["date"]}>{article.date}</div>
+            <div className={style["title"]}>{article.title}</div>
           </a>
         ))}
       </div>
