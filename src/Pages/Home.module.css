@@ -1,0 +1,3 @@
+.Home > *:not(:last-child) {
+  margin-bottom: calc(6 * var(--default-padding));
+}
